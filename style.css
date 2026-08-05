@@ -1,0 +1,11 @@
+.menu{
+    background-color: aqua;
+      margin: auto;}
+.hero-image{
+    background-image: url("./hero_image_fishwithrubbish.jpg") ;
+    height:700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
