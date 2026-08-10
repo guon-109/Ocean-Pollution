@@ -1,11 +1,63 @@
 .menu{
-    background-color: aqua;
-      margin: auto;}
+    background-color: #123C50;
+      margin: auto;
+}
+.menu a{
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-size: 30px;
+    color:#f0f8ff;
+}
+
 .hero-image{
-    background-image: url("./hero_image_fishwithrubbish.jpg") ;
+    background-image: url("./sea\ ​_turtle.jpg") ;
     height:700px;
-    background-position: center;
+    background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-color: rgba(255, 255, 255, 0.199); 
+    background-blend-mode: lighten; 
+}
+.right-align {
+  text-align: center;
+  margin-left: 50%;
+  width: 50%;
+  color: aliceblue;
+  
+}
+h1{
+    font-size: 100px;
+}
+#hero-text{
+    font-size: 50px;
+}
+.home_purpose{
+    padding-top: 180px;
+    text-align:center;
+    font-size: 30px;
+}
+.container {
+  display: flex;      
+  gap: 15px;           
+  width: 100%;
+  padding-top:20px;
+}      
+.home_short_info{
+    width: 50px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 60px;
+    padding: 30px;
+    flex: 1;
+    border: 5px solid;
+    background-color: #B2E7EA;
+    color: black;
+}
+.impact_info, .prevention_info{
+    text-align: center;
+}
+.impact_info h1, .prevention_info h1{
+    font-size: 40px;
 }
