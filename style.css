@@ -45,9 +45,6 @@ h1{
   padding-top:20px;
 }      
 .home_short_info{
-    width: 50px;
-    display: inline-block;
-    vertical-align: top;
     margin: 60px;
     padding: 30px;
     flex: 1;
@@ -60,4 +57,19 @@ h1{
 }
 .impact_info h1, .prevention_info h1{
     font-size: 40px;
+}
+footer{
+    text-align: center;
+}
+.three-column{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:100px;
+    width:80%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.list{
+    background-color: #B2E7EA;
 }
