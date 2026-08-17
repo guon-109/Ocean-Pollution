@@ -1,12 +1,13 @@
 .menu{
     background-color: #123C50;
-      margin: auto;
+    margin: auto;
+    
 }
 .menu a{
     text-align: center;
     padding: 14px 30px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 40px;
     color:#f0f8ff;
 }
 
@@ -49,7 +50,7 @@ h1{
     padding: 30px;
     flex: 1;
     border: 5px solid;
-    background-color: #B2E7EA;
+    background-color: #E2F1F8;
     color: black;
 }
 .impact_info, .prevention_info{
@@ -71,5 +72,23 @@ footer{
     margin-bottom: 50px;
 }
 .list{
-    background-color: #B2E7EA;
+    background-color: #E2F1F8;
+    border-radius: 5px;
+    font-size: 25px;
+}
+.local_activities_link{
+    text-align: center;
+    background-color:#E2F1F8;
+    width:545px;
+  display:inline-block;
+  vertical-align:middle;
+  padding:10px 10px 10px 10px;
+}
+.local_activities_image img {
+    width: 400px;
+    height: auto;
+    width: 300px;
+  vertical-align:middle;
+  border-radius:100px;
+  margin:1px 1px 1px 1px
 }
