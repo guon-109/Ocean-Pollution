@@ -1,13 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
 .menu{
     background-color: #123C50;
     margin: auto;
-    padding:25px 10px 25px 10px;
+    padding:15px 10px 15px 10px;
 }
 .menu a{
     text-align: center;
     padding: 14px 30px;
     text-decoration: none;
-    font-size: 40px;
+    font-size: 25px;
     color:#f0f8ff;
 }
 
@@ -30,6 +38,7 @@
 }
 h1{
     font-size: 100px;
+    margin: 0;
 }
 #hero-text{
     font-size: 50px;
@@ -46,8 +55,8 @@ h1{
   padding-top:20px;
 }      
 .home_short_info{
-    margin: 60px;
-    padding: 30px;
+    margin: 50px;
+    padding: 50px;
     flex: 1;
     border: 5px solid;
     background-color: #E2F1F8;
@@ -55,12 +64,15 @@ h1{
 }
 .impact_info, .prevention_info{
     text-align: center;
+    margin-top: 20px;
 }
 .impact_info h1, .prevention_info h1{
     font-size: 40px;
 }
 footer{
     text-align: center;
+    border-top: 3px dashed #123C50;
+    padding: 30px 20px;
 }
 .three-column{
     display: grid;
@@ -74,9 +86,12 @@ footer{
 .list{
     background-color: #E2F1F8;
     border-radius: 5px;
-    font-size: 25px;
+    font-size: 20px;
+    padding:40px;
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
-.local_activities_container{
+.local_activities_container, .impact_container{
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -91,7 +106,7 @@ footer{
     gap: 20px;
     padding: 20px;
 }
-.local_activities_image img {
+.local_activities_image img, .impact_image img{
     width: 250px;
     height: auto;
   border-radius:40px;
