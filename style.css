@@ -10,10 +10,10 @@ body{
     background-color: #123C50;
     margin: auto;
     padding:15px 10px 15px 10px;
+    text-align: center;
 }
 .menu a{
-    text-align: center;
-    padding: 14px 30px;
+    padding: 14px 100px;
     text-decoration: none;
     font-size: 25px;
     color:#f0f8ff;
@@ -109,7 +109,7 @@ footer{
 .local_activities_image img, .impact_image img{
     width: 250px;
     height: auto;
-  border-radius:40px;
+  border-radius:20px;
 }
 .info {
   flex: 1;
