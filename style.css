@@ -69,11 +69,11 @@ h1{
     background-color: #E2F1F8;
     color: black;
 }
-.impact_info, .prevention_info{
+.impact_info, .prevention_info, .local_activity_info{
     text-align: center;
     margin-top: 20px;
 }
-.impact_info h1, .prevention_info h1{
+.impact_info h1, .prevention_info h1, .local_activity_info h1{
     font-size: 40px;
 }
 footer{
@@ -118,7 +118,7 @@ footer{
     height: auto;
   border-radius:20px;
 }
-.info ,.last_info{
+.info{
   flex: 1;
   text-align: left;
 }
